@@ -1,0 +1,157 @@
+.blogs {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .blogs_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .blogs-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  
+  .blog-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .blog-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+
+  .blog-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+ 
+  .blog-content {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 10px;
+  }
+  .page-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  
+  .pagination {
+    display: flex;
+    gap: 10px;
+  }
+  .page-numbers,
+  .prev-next-links {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #555;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .page-numbers:hover,
+  .prev-next-links:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .page-numbers.current {
+    background-color: #007bff;
+    color: white;
+    cursor: default;
+  }
+  
+  .prev-next-links:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  @media (max-width: 768px) {
+    .blogs {
+      padding: 10px;
+    }
+  
+    .blog-title {
+      font-size: 1.5rem;
+    }
+  
+    .blog-content {
+      font-size: 0.9rem;
+    }
+  
+    .pagination {
+      gap: 5px;
+    }
+  
+    .page-numbers,
+    .prev-next-links {
+      padding: 8px 10px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Mobile Phones */
+@media (max-width: 480px) {
+  .blogs-title {
+    font-size: 2rem;
+  }
+
+  .blog-title {
+    font-size: 1.2rem;
+  }
+
+  .blog-content {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  .blog-post {
+    padding: 15px;
+  }
+
+  .pagination {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-numbers,
+  .prev-next-links {
+    width: 100%;
+    text-align: center;
+  }
+}

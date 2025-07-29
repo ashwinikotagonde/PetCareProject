@@ -1,0 +1,523 @@
+.about-us{
+    padding:30px 10%;
+ }
+
+.about-us-section1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/aboutus/aboutusbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
+  @media (max-width: 768px) {
+    .about-us-section1 {
+      height: 80vh; 
+    }
+  }
+  .about-us-image {
+    content: '';
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+    background-color: rgb(234, 168, 54);
+    overflow: visible;
+    transition: transform 1s ease-in-out;
+    z-index: 2;
+    animation: slideLeft 1.5s ease-in-out forwards;
+  }
+  @keyframes slideLeft {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 10%;
+    }
+  }
+  .about-us-image:hover {
+    transform: scale(1.1);
+  }
+  .section1-content {
+    position: absolute;
+    right: 10%;
+    transform: translateY(-50%);
+    text-align: center;
+    width:500px;
+    transition: transform 0.5s ease-in-out;
+    animation: slideRight 1s ease-out forwards;
+  }
+  @keyframes slideRight {
+    0% {
+      right: -100%; 
+    }
+    100% {
+      right: 10%; 
+    }
+  }
+  .section1-content:hover {
+    transform: scale(1.2) ;
+  }
+  .arrow-down {
+    position: absolute;
+    bottom: 200px; 
+    left: 72%;
+    transform: translateX(-50%);
+    font-size: 2.5rem; 
+    color: rgb(0, 1, 2); 
+    background-color: rgb(243, 198, 114); 
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+    animation: bounce 2s infinite; 
+  }
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+  }
+  .about-us-title {
+    font-family: 'Lobster', fantasy;
+    font-style: normal;
+    font-size: 6rem;
+    font-weight: 100;
+    margin-top: 10px;
+    text-decoration-line: overline;
+    text-decoration-color: #ebaa31; 
+  }
+  .about-us-subtitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.0rem;
+  }
+  .about-us-logo {
+    width: 50px;
+    height: auto;
+    border-radius: 90px;
+  }
+  .half-image {
+    position: absolute;
+    top:10%;
+    right: 20%; 
+    transform: translateY(-50%);
+    border-radius: 50%;
+    clip-path: ellipse(100% 90% at 50% 0%); 
+    width: 350px; 
+    height: 350px; 
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+    animation: slideInFromRight 1s ease-out forwards;
+  }
+  .half-image:hover {
+    transform: translateY(-50%) scale(1.1); 
+  }
+  @keyframes slideInFromRight {
+    0% {
+      right: -300px; 
+    }
+    100% {
+      right: 20%; 
+    }
+  }
+  .vision-and-mission {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 300px; 
+    transition: transform 1s ease;
+    overflow:hidden;
+  }
+  .vision-container, .mission-container, .values-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 150px;
+    position: relative;
+    background-color: rgba(235, 232, 227, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 1s ease;
+  }
+  .mission-container:hover,
+  .values-container:hover,
+  .vision-container:hover {
+    transform: scale(1.1);
+  }
+  .vision-container.centered,
+  .mission-container.centered,
+  .values-container.centered {
+    transform: scale(1.2); 
+    transition: transform 1s ease; 
+  }
+  .vision-image, .mission-image, .values-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: -75px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+  }
+  .mission-image:hover,
+  .values-image:hover,
+  .vision-image:hover {
+    transform: translateY(-50%) scale(1.1);
+  }
+  .vision-text, .mission-text, .values-text {
+    padding-left: 120px;
+    font-family: serif;
+    font-style: italic;
+    text-align: left;
+    z-index: 2;
+    padding-right: 10px;
+    width: 500px; 
+  }
+  .vision-title, .mission-title, .values-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-family: 'Papyrus', fantasy;
+    color: #333;
+  }
+  .vision-content, .mission-content, .values-content {
+    font-size: 1.2rem;
+    color: #555; 
+  }
+  .section1-content,
+  .about-us-section2 h2,
+  .about-us-section2 p {
+    z-index: 5;
+  }
+  .about-us-section2 {
+    background-image: url('../../assets/aboutus/section2-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
+    padding: 50px;
+    text-align: center;
+    position: relative; 
+    width: 100%;
+  }
+  .about-us-section1,
+  .about-us-section2 {
+    margin: 0; 
+  }
+  .section2-title {
+    font-family: fantasy;
+    font-style: normal;
+    font-size: 3rem;
+    position: absolute; 
+    top: 30px; 
+    left: -80%; 
+    z-index: 10;
+    color: rgb(10, 0, 0);
+    transition: transform 0.5s ease-in-out;
+    border-radius: 30px  ;
+    background-color: rgb(250, 171, 61);
+    padding: 20px;
+    opacity: 0;
+    animation: slideleft 1s ease-out forwards; 
+    opacity: 1; 
+  }
+  .section2-title.visible {
+    opacity: 1;
+  }
+  .section2-title:hover {
+    transform: scale(1.2);
+  }
+  @keyframes slideleft {
+    0% {
+      left: -100%; 
+    }
+    100% {
+      left: 30px; 
+    }
+  }
+  .about-us-section3 {
+    
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/aboutus/section3-image.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    position: relative; 
+    padding: 50px 10%;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+  .pet-parent {
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+    
+  }
+  .pet-parent:hover {
+    transform: translate(-50%, -50%) scale(1.1); 
+  }
+  .section3-title{
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-bottom: 600px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(254, 254, 254,0.7);
+  }
+  .points-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; 
+  }
+  .point-logo {
+    width: 50px; 
+    height: auto;
+    margin-bottom: 8px; 
+  }
+  .point {
+    position: absolute;
+    width: 350px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    pointer-events: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .point-1:hover,.point-2:hover {
+    transform: translateX(-50%) scale(1.1);
+    z-index: 3;
+  }
+  .point-3:hover,.point-4:hover {
+    transform: translateX(50%) scale(1.1);
+    z-index: 3;
+  }
+  .point-1 {
+    top: 20%;
+    right: 5%;
+    transform: translate(-20%, 30%);
+  }
+  .point-2 {
+    top: 70%;
+    right: 5%;
+    transform: translate(5%, -10%);
+  }
+  .point-3 {
+    top: 20%;
+    left: 15%;
+    transform: translate(-20%, 30%);
+  }
+  .point-4 {
+    top: 70%;
+    left: 5%;
+    transform: translate(5%, -10%);
+  }
+  .point h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-underline-position: above;
+    text-decoration-color: rgb(152, 167, 167);
+  }
+  .point p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  .section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: url("../../assets/aboutus/section4-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  .content-wrapper {
+    display: flex;
+    gap: 40px; 
+  }
+  .left-images {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+  }
+  .left-images img {
+    width: 300px; 
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px rgba(7, 7, 7, 0.9);
+    transition: transform 0.3s ease;
+  }
+  .left-images img:hover {
+    transform: scale(1.05);
+  }
+  .right-images {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+  }
+  .right-images img {
+    width: 300px; 
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.9);
+    transition: transform 0.3s ease;
+  }
+  .right-images img:hover {
+    transform: scale(1.05); 
+  }
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left-images,
+    .right-images {
+      flex-direction: row; 
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .left-images img,
+    .right-images img {
+      width: 100%; 
+    }
+  }
+  .text-content {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 20px;
+  }
+  .text-content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: bold;
+    color: black;
+    margin-top: 5%;
+  }
+  .text-content h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: #ebaa31;
+  }
+  .text-content p {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #5c4f41;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .bottom-left-image {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    width: 500px; 
+    height: auto;
+    z-index: 1; 
+  }
+  .about-us-section2,
+  .about-us-section3,
+  .about-us-section4 {
+    padding: 50px;
+    text-align: center;
+  }
+  .about-us-section2 h2,
+  .about-us-section3 h2,
+  .about-us-section4 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .about-us-section2 p,
+  .about-us-section3 p,
+  .about-us-section4 p {
+    font-size: 1.2rem;
+    color: #555;
+  }                                                          
+  @media (max-width: 768px) {
+    .about-us-image,
+    .half-image {
+      width: 250px;
+      height: 250px;
+      left: 5%;
+      top: 20%;
+    }
+  
+    .section1-content {
+      width: 90%;
+      right: 5%;
+      font-size: 1.2rem;
+    }
+  
+    .arrow-down {
+      bottom: 100px;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 1.5rem;
+    }
+  
+    .vision-and-mission {
+      flex-direction: column;
+      gap: 100px;
+    }
+  
+    .vision-text, .mission-text, .values-text {
+      width: 100%;
+      padding-left: 100px;
+    }
+  
+    .point {
+      width: 250px;
+      padding: 15px;
+    }
+  
+    .text-content h1, .text-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .text-content p {
+      font-size: 1.2rem;
+    }
+  
+    .bottom-left-image {
+      width: 300px;
+      left: 20px;
+    }
+  }
+  

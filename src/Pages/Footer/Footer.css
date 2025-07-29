@@ -1,0 +1,134 @@
+.Footer{
+    width: 100%;
+    height: 30%;
+    padding-top: 10px;
+    background-color: antiquewhite;
+   
+}
+.Footer-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+.Footer-item1 img{
+    padding: 5px;
+    width: 150px;
+    height: 80px;
+}
+.Footer-item1 p{
+    width: 280px;
+    color:black !important;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.Footer-item2 h4{
+    padding:20px 0 ;
+}
+.Footer-item2 a{
+    display:grid;
+    line-height: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.Footer-item2 a:hover {
+    color: #8B0000;
+  }
+.Footer-item3 h4{
+    padding:20px 0 ;
+    row-gap: 5px;
+}
+.Footer-item3 p{
+    line-height: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.Footer-item3 p svg{
+  margin-right: 10px;
+  font-size: 30px;
+  color: #8B0000;
+}
+.Footer-icons{
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.Footer-icons svg{
+  font-size: 24px;
+  color: #483D8B;
+  transition: color 0.3s ease;
+}
+.Footer-icons svg:hover {
+    color: #DC143C;
+}
+.footer-p {
+    margin-top: 20px;
+    background-color: #FF8C00;
+    width: 100%;
+    height: 80px;
+    padding: 20px 20px;
+    align-items: center ;
+    justify-content: center;
+    text-align: center;
+}
+
+/* 🔽 Responsive Footer for Mobile Screens */
+@media (max-width: 768px) {
+    .Footer-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      text-align: center;
+    }
+  
+    .Footer-item1 p,
+    .Footer-item2 a,
+    .Footer-item3 p {
+      width: 100%;
+    }
+  
+    .Footer-item1 img {
+      width: 120px;
+    }
+  
+    .Footer-icons {
+      gap: 15px;
+    }
+  
+    .footer-p {
+      font-size: 0.9rem;
+      padding: 15px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Footer-item1 img {
+      width: 100px;
+    }
+  
+    .Footer-item1 p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+    .Footer-item2 h4,
+    .Footer-item3 h4 {
+      font-size: 1rem;
+    }
+  
+    .Footer-item2 a,
+    .Footer-item3 p {
+      font-size: 0.9rem;
+      line-height: 26px;
+    }
+  
+    .Footer-icons svg {
+      font-size: 20px;
+    }
+  }

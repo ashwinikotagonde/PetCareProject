@@ -1,0 +1,117 @@
+.training-container{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.training-header{
+    display: flex;
+    background-color: #00CED1;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+}
+.training-header h1{
+    font-size: 30px;
+    padding: 15px 0;
+  position: relative;
+}
+.training-header button{
+    float: right;
+    font-size: 25px;
+    border: transparent;
+    background: transparent;
+}
+.training-page{
+    display: flex;
+    gap: 50px;
+    width: 1200px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.training-header2 h1{
+    width:100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: "Raleway";
+    line-height: 25px;
+    text-align: center;
+    text-transform: none;
+    color: #565656;
+    padding: 30px 0;
+}
+.training-header2 p{
+    margin: 0 auto;
+}
+.training-cover-header h1{
+    width:100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: "Raleway";
+    line-height: 25px;
+    text-align: center;
+    text-transform: none;
+    color: #565656;
+    padding: 30px 0;
+}
+.training-cover-header p{
+    margin: 0 auto;
+}
+.training-blocks{
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 30px;
+}
+.training-icons-container{
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin: 0 -10px;
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+.training-icons-items{
+    padding-bottom: 20px 0;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin: 0 -10px;
+    padding-bottom: 40px;
+    box-shadow: none;
+    opacity: 1;
+    display: block;
+    transform: translateY(0px);
+    padding-right: 50px !important;
+    padding-left: 50px !important;  
+}
+.training-icon-img img{
+    margin-bottom: 5px;
+    background: none !important;
+    opacity: 1;
+    width: 1em;
+    height: 1em;
+    font-size: 102px;
+    color: rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+.training-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: none;
+    letter-spacing: 0px;
+    box-sizing: border-box;
+    direction: ltr;
+    color: #565656;
+}

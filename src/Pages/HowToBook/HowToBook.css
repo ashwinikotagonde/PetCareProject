@@ -1,0 +1,25 @@
+.how-to-book {
+  text-align: center;
+  padding:30px 10%;
+  background-color: #f9f9f9;
+}
+
+.how-to-book h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* 🔽 Responsive for small mobile devices */
+@media (max-width: 480px) {
+  .how-to-book {
+    padding: 20px 3%;
+  }
+
+  .how-to-book h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+}  
+  
+  

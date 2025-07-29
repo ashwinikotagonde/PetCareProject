@@ -1,0 +1,451 @@
+.grooming-container{
+    margin: 0;
+    padding: 0;
+}
+.grooming-section{
+  align-items: center;justify-content: center;
+  align-items: center;
+  padding: 15px 5%;
+  margin: 10px auto;
+  width: 1200px;
+  position: relative;
+}
+.grooming-header{
+    display: flex;
+    background-color: #00CED1;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+}
+.grooming-header h1{
+    font-size: 30px;
+    padding: 15px 0;
+  position: relative;
+}
+.grooming-header button{
+     float: right;
+     font-size: 15px;
+     border: transparent;
+     background: transparent;
+}
+.Grooming-main1{
+    display: flex;
+    gap: 50px;
+    width: 1200px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.service-text{
+    padding: 30px 0;
+}
+.Grooming-main .service-text p{
+    background-repeat:no-repeat !important;
+    background-position: center top !important;
+    font-family: Raleway;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 25px;
+      text-transform: none;
+      letter-spacing: 0px;
+      color: #565656;
+}
+.Grooming-main .service-img{
+    width: 50%;  
+    float: left;
+    min-height: 1px;
+    padding: 10px 20px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    border-radius: inherit;
+}
+.grooming-whyPet{
+  position: relative;
+}
+.grooming-whyPet h1{
+    width:100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: "Raleway";
+    line-height: 25px;
+    text-align: center;
+    text-transform: none;
+    color: #565656;
+    padding: 30px 0;
+}
+.grooming-whyPet p{
+    margin: 0 auto;
+}
+.grooming-main2{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+}
+.grooming-img {
+    max-width: 50%;
+    padding:0 30px;
+
+}
+.grooming-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.grooming-text{
+    margin-bottom: 0;
+    width: 50%;
+    float: left;
+    min-height: 1px;
+    padding: 0 10px;
+    position: relative;   
+}
+.grooming-text ul{
+    padding-left: 16px;
+    padding-right: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Raleway";
+    line-height: 25px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #565656;
+}
+.grooming-text ul li{
+    list-style: disc;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Raleway";
+    line-height:21px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #565656;
+}
+.grooming-whatDoes h1{
+    position: relative;
+    width:100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-family: "Raleway";
+    line-height: 25px;
+    text-align: center;
+    text-transform: none;
+    color: #565656;
+    padding: 30px 0;
+}
+.grooming-whatDoes p{
+    margin: 0 auto;
+}
+.grooming-main3{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+}
+.grooming-img2 img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    height:100%;
+    padding: 0 15px;
+    position: relative;
+}
+.grooming-text2{
+    width: 50%;
+    float: left;
+    min-height: 1px;
+    padding:0 16px;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20 px;
+    letter-spacing: 0px;
+    color: #282727;
+}
+.grooming-text2 h1{
+    font-family: "Raleway";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    line-height: inherit;
+}
+.grooming-text2 p{
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Raleway";
+    line-height: 25px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #565656;
+}
+.grooming-text2 ul li{
+    padding-top: 10px;
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 25px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #565656;
+}
+.grooming-cover{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+}
+.grooming-cover div{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.grooming-cover div h1{
+    display: inline-block;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    color:#424242;
+}
+.grooming-cover p{
+    margin: 0 auto;
+}
+.grooming-Dog-icons h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: "Raleway";
+    line-height: 36px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #28262b;
+}
+.grye-line{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 100px;
+    border-bottom-color: #dddddd;
+}
+.grooming-Dog{
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin: 0 -10px;
+}
+.grooming-Dog-block{
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.grooming-Dog-container1{
+    padding: 20px;
+}
+.grooming-Dog-container2{
+    padding: 20px;
+}
+.grooming-Dog-container3{
+    padding: 20px;
+}
+.grooming-Dog-items{
+    padding-bottom: 20px 0;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin: 0 -10px;
+    padding-bottom: 40px;
+    box-shadow: none;
+    opacity: 1;
+    display: block;
+    transform: translateY(0px);
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+.dog-icons img{
+    margin-bottom: 5px;
+    background: none !important;
+    opacity: 1;
+    width: 1em;
+    height: 1em;
+    font-size: 102px;
+    color: rgba(0, 0, 0, 0.1);
+    position: relative;
+
+}
+.g-text1{
+    font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #28262b;
+    direction: ltr;
+    transition: color .3s ease-in-out, border-bottom-color .3s ease-in-out;
+}
+.g-text2{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: none;
+    letter-spacing: 0px;
+    box-sizing: border-box;
+    direction: ltr;
+    color: #565656;
+}
+.grooming-cat-block{
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.grooming-Cat-container1{
+    padding: 20px;
+}
+.grooming-Cat-container2{
+    padding: 20px;
+}
+.grooming-Cat-container3{
+    padding: 20px;
+}
+.grooming-Cat-items{
+    padding-bottom: 20px 0;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin: 0 -10px;
+    padding-bottom: 40px;
+    box-shadow: none;
+    opacity: 1;
+    display: block;
+    transform: translateY(0px);
+    padding-right: 50px !important;
+    padding-left: 50px !important;   
+}
+.Cat-icons img{
+    margin-bottom: 5px;
+    background: none !important;
+    opacity: 1;
+    width: 1em;
+    height: 1em;
+    font-size: 102px;
+    color: rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+@media (max-width: 480px) {
+    .grooming-header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      gap: 10px;
+    }
+  
+    .grooming-header h1 {
+      font-size: 20px;
+      padding: 5px 0;
+    }
+  
+    .grooming-header button {
+      font-size: 16px;
+    }
+  
+    .grooming-section,
+    .Grooming-main1,
+    .grooming-main2,
+    .grooming-main3 {
+      flex-direction: column;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .service-text,
+    .grooming-text,
+    .grooming-text2 {
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .Grooming-main1 .service-img,
+    .grooming-img {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .grooming-img img,
+    .grooming-img2 img {
+      width: 100%;
+      height: auto;
+      padding: 0;
+    }
+  
+    .grooming-text ul,
+    .grooming-text ul li,
+    .grooming-text2 ul li {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+    .grooming-whyPet h1,
+    .grooming-whatDoes h1,
+    .grooming-cover div h1 {
+      font-size: 24px;
+      line-height: 30px;
+      padding: 15px 0;
+    }
+  
+    .grooming-Dog-block,
+    .grooming-cat-block {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .grooming-Dog-items,
+    .grooming-Cat-items {
+      padding: 20px 15px !important;
+    }
+  
+    .dog-icons img,
+    .Cat-icons img {
+      font-size: 80px;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .g-text1 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  
+    .g-text2 {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  

@@ -1,0 +1,131 @@
+.ContactInfoItem{
+    padding: 20px 4%;
+    
+}
+.contactinfo{
+    padding: 10px;
+}
+.content-title h4{
+    padding-bottom: 20px;
+    line-height: 29px;
+    text-transform: none;
+    
+}
+.content-title{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "texgyreadventorregular";
+    line-height: 30px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #4c4b4e;
+}
+.line{
+    border-bottom-style: solid;
+    border-bottom-width: 7px;
+    width: 80px;
+    border-bottom-color: #f6b206;
+}
+.contactinfo1{
+    padding-top: 20px;
+    position: relative;
+    padding-left: 60px;
+    padding-bottom: 35px;
+    display:flex;
+     
+}
+.contactinfo1 svg{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    color: #94d4cb;
+}
+.contactinfo1 svg ::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.contactinfo1 h3{
+       width: 20%;
+     line-height: 1;
+     text-transform: capitalize;
+     position: relative;
+     color: #2e2c2c;
+    font-family: 'Roboto' !important;
+    font-weight: 400 !important;
+}
+.contactinfo1 p{
+    position: relative;
+    padding-top: 5px;
+    font-family: 'Roboto' !important;
+    font-weight: 400 !important;
+    color: #565656;
+}
+.contactinfo2{
+    position: relative;
+    padding-left: 60px;
+    padding-bottom: 35px;
+    display: flex;
+    gap: 20px;
+}
+.contactinfo2 svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    color: #94d4cb;
+}
+.contactinfo2 h3{
+    padding: 5px;
+    line-height: 1;
+    text-transform: capitalize;
+    position: relative;
+    color: #2e2c2c;
+   font-family: 'Roboto' !important;
+   font-weight: 400 !important;
+}
+.contactinfo2 p{
+    position: relative;
+    padding-top: 5px;
+    font-family: 'Roboto' !important;
+    font-weight: 400 !important;
+    color: #565656;
+} 
+.contactinfo3{
+    position: relative;
+    padding-left: 60px;
+    padding-bottom: 35px;
+    display: flex;
+    gap: 20px;
+}
+.contactinfo3 svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    color: #94d4cb;
+}
+.contactinfo3 h3{
+    padding: 5px;
+    line-height: 1;
+    text-transform: capitalize;
+    position: relative;
+    color: #2e2c2c;
+   font-family: 'Roboto' !important;
+   font-weight: 400 !important;
+}
+.contactinfo3 p{
+    position: relative;
+    padding-top: 5px;
+    font-family: 'Roboto' !important;
+    font-weight: 400 !important;
+    color: #565656;
+} 

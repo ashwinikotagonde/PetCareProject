@@ -1,0 +1,186 @@
+.Boarding{
+ margin: 0;
+ padding: 0;
+}
+.boarder-header{
+    display: flex;
+    background-color: #00CED1;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+.boarder-header h1{
+    display: flex;
+    font-size: 30px;
+    padding: 15px 0;
+    position: relative;
+}
+.boarder-header button{
+    float: right;
+    font-size: 25px;
+    border: transparent;
+    background: transparent;
+}
+.Boarding-section{
+    margin:0 15%;
+}
+.boarding-item{
+    display: flex;
+    padding: 40px 10px;
+}
+.boarding-img{
+    padding:0 10px;
+}
+.boarding-text{
+    padding: 50px 10px;
+}
+.boarding-text img{
+    padding:0 10px;
+}
+.boarding-text h1{
+    padding:0 10px;
+    font-size: 55px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-style:normal;
+    color: #28262b;
+}
+.boarding-text p{
+    padding: 0 10px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #565656;
+}
+.boarding-iconsContainer h1{
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 25px;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.boarding-iconsContainer .line{
+    margin: 0 auto;
+    padding: 10px;
+}
+.icons-container{
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    margin-bottom:30px ;
+    margin-top: 50px;
+}
+.icons{
+   padding: 0 20px;
+}
+.icons img{
+    width: 102px;
+    height: 102px;
+}
+.icons p{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #28262b;
+}
+
+@media (max-width: 480px) {
+    .boarder-header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      gap: 10px;
+    }
+  
+    .boarder-header h1 {
+      font-size: 22px;
+      padding: 5px 0;
+    }
+  
+    .boarder-header button {
+      font-size: 20px;
+    }
+  
+    .Boarding-section {
+      margin: 0 5%;
+    }
+  
+    .boarding-item {
+      flex-direction: column;
+      padding: 20px 0;
+    }
+  
+    .boarding-img {
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .boarding-img img {
+      width: 90%;
+      height: auto;
+    }
+  
+    .boarding-text {
+      padding: 20px 10px;
+      text-align: center;
+    }
+  
+    .boarding-text h1 {
+      font-size: 26px;
+      line-height: 34px;
+      padding: 10px 0;
+    }
+  
+    .boarding-text p {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 10px 0;
+    }
+  
+    .boarding-iconsContainer h1 {
+      font-size: 24px;
+      line-height: 32px;
+      padding: 10px;
+    }
+  
+    .icons-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin: 20px 0;
+    }
+  
+    .icons {
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .icons img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .icons p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  
